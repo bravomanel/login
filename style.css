@@ -1,0 +1,39 @@
+body {
+    background-color: #C6D2D8;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.container {
+    width: 19rem;
+    margin: 0 auto;
+}
+
+input, button {
+    width: 100%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #D9D9D9;
+}
+
+button {
+    width: 11rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.mensagem {
+    width: 19rem;
+    height: 6rem;
+    background-color: #D9D9D9;
+    margin: 0 auto;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

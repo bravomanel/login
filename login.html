@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Login</title>
+         <link href="style.css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <h1>LOGIN</h1>
+        <main class="container">
+            <input type="text" id="usuario" placeholder="Usuário">
+            <input type="text" id="senha" placeholder="Senha">
+            <button onclick="logar()">ENVIAR</button>
+        </main>
+
+        <script>
+            function logar() {
+                let usuario = document.getElementById("usuario").value;
+                let senha = document.getElementById("senha").value;
+
+                if (usuario == "usuario" && senha == "senha") {
+                    window.location = 'home.html';
+                } else {
+                    alert("Usuário ou Senha incorretos!");
+                }
+            }
+        </script>
+    </body>
+
+
+</html>
